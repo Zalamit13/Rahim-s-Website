@@ -9,7 +9,7 @@ body {
   line-height: 28px;
   color: #6a6a6a;
   font-size: 14px;
-  background-color: whitesmoke; }
+  background-color: white; }
 
 a {
   text-decoration: none;
@@ -25,7 +25,7 @@ a {
     font-weight: 600; }
 
 .custom-navbar {
-  background: #DCDCEF !important;
+  background: #F5F5F8 !important;
   padding-top: 20px;
   padding-bottom: 20px; }
   .custom-navbar .navbar-brand {
@@ -90,7 +90,7 @@ a {
         margin-right: 20px; }
 
 .hero {
-  background: #DCDCEF;
+  background: #F5F5F8;
   padding: calc(4rem - 30px) 0 0rem 0; }
   @media (min-width: 768px) {
     .hero {
@@ -157,29 +157,29 @@ a {
   padding: 12px 30px;
   border-radius: 30px;
   color: #ffffff;
-  background: #2f2f2f;
-  border-color: #2f2f2f; }
+  background: #28657B;
+  border-color: #28657B; }
   .btn:hover {
     color: #ffffff;
-    background: #222222;
-    border-color: #222222; }
+    background: #183d4b;
+    border-color: #183d4b; }
   .btn:active, .btn:focus {
     outline: none !important;
     -webkit-box-shadow: none;
     box-shadow: none; }
   .btn.btn-primary {
-    background: #3b5d50;
-    border-color: #3b5d50; }
+    background: #28657B;
+    border-color: #28657B; }
     .btn.btn-primary:hover {
-      background: #314d43;
-      border-color: #314d43; }
+      background: #183d4b;
+      border-color: #183d4b; }
   .btn.btn-secondary {
-    color: #2f2f2f;
-    background: #f9bf29;
-    border-color: #f9bf29; }
+    color: whitesmoke;
+    background: #28657B;
+    border-color: #28657B; }
     .btn.btn-secondary:hover {
-      background: #f8b810;
-      border-color: #f8b810; }
+      background: #183d4b;
+      border-color: #183d4b; }
   .btn.btn-white-outline {
     background: transparent;
     border-width: 2px;
@@ -247,7 +247,7 @@ a {
       right: 0;
       position: absolute;
       content: "";
-      background: #dce5e4;
+      background: #F5F5F8;
       height: 0%;
       z-index: -1;
       border-radius: 10px;
